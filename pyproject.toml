@@ -19,7 +19,7 @@ notebook = ["jupyter", "matplotlib", "pandas", "ipykernel"]
 dev = ["pytest>=7", "pytest-cov"]
 
 [tool.hatch.build.targets.wheel]
-packages = ["tests"]
+packages = ["src/derivlab"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
