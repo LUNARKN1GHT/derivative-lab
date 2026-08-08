@@ -1,3 +1,10 @@
+from derivlab.greeks import (
+    bsm_delta,
+    bsm_gamma,
+    bsm_rho,
+    bsm_theta,
+    bsm_vega,
+)
 from derivlab.pricing import (
     ExerciseStyle,
     OptionType,
@@ -14,4 +21,9 @@ __all__ = [
     "bsm_d1_d2",
     "bsm_price",
     "crr_binomial_price",
+    "bsm_delta",
+    "bsm_gamma",
+    "bsm_vega",
+    "bsm_theta",
+    "bsm_rho",
 ]
