@@ -43,8 +43,8 @@ pytest -v
 ## Roadmap
 
 - [x] 期权定价基础:BSM 公式、CRR 二叉树(European / American)
-- [ ] 期货与远期定价
-- [ ] Greeks 与对冲
+- [x] 期货与远期定价
+- [x] Greeks 与对冲
 - [ ] 波动率(隐含波动率、波动率微笑)
 - [ ] 蒙特卡洛模拟
 - [ ] 奇异期权

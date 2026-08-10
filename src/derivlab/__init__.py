@@ -1,3 +1,9 @@
+from derivlab.forwards import (
+    forward_price,
+    forward_price_cost_of_carry,
+    forward_price_known_income,
+    forward_value,
+)
 from derivlab.greeks import (
     bsm_delta,
     bsm_gamma,
@@ -26,4 +32,8 @@ __all__ = [
     "bsm_vega",
     "bsm_theta",
     "bsm_rho",
+    "forward_price",
+    "forward_price_cost_of_carry",
+    "forward_price_known_income",
+    "forward_value",
 ]
