@@ -18,6 +18,7 @@ from derivlab.pricing import (
     bsm_price,
     crr_binomial_price,
 )
+from derivlab.volatility import ImpliedVolatilityError, implied_volatility
 
 __version__ = "0.1.0"
 
@@ -36,4 +37,6 @@ __all__ = [
     "forward_price_cost_of_carry",
     "forward_price_known_income",
     "forward_value",
+    "implied_volatility",
+    "ImpliedVolatilityError",
 ]
