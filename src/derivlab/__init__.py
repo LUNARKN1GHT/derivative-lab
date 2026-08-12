@@ -11,6 +11,7 @@ from derivlab.greeks import (
     bsm_theta,
     bsm_vega,
 )
+from derivlab.monte_carlo import mc_european_price
 from derivlab.pricing import (
     ExerciseStyle,
     OptionType,
@@ -39,4 +40,5 @@ __all__ = [
     "forward_value",
     "implied_volatility",
     "ImpliedVolatilityError",
+    "mc_european_price",
 ]
